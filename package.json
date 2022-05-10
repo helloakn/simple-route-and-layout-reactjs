@@ -1,5 +1,5 @@
 {
-  "name": "simple-react-route",
+  "name": "suhtur",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -8,8 +8,13 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.1.0",
     "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
+  },
+  "exports":{
+    "./pages/*" : "./src/pages/*.pages.jsx",
+    "./layouts/*" : "./src/layouts/*.layout.jsx"
   },
   "scripts": {
     "start": "react-scripts start",
